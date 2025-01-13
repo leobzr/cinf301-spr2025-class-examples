@@ -1,0 +1,54 @@
+<!-- See: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started -->
+
+<!-- To prevent using "quirks" form (i.e. use "standards" form instead)
+
+  See: https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+
+  An example of "Quirks" mode is 
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+  Don't do this!
+
+  From here on, we'll use "standards" mode
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Basics</title>
+</head>
+
+<body>
+  <h1>H1 Header</h1>
+
+                    Here is some stuff.
+
+  <h2>H2 Header</h2>
+  <h3>H3 Header</h3>
+
+  <!-- inline (em) vs. block (p) elements with opening and closing tags -->
+  <em>first</em><em>second</em><em>third</em>
+  <p>fourth</p><p>fifth</p><p>sixth</p>
+
+  I <em>LOVE</em> this class!
+
+  I <p>LOVE</p> this class!
+
+  <!-- "empty" or "void" elements can just have the tag with an "attribute" -->
+  <!-- See: https://developer.mozilla.org/en-US/docs/Glossary/empty_element -->
+  <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+       alt="Oh no!">
+
+  <!-- Try target "_blank" and "_self" -->
+  <!-- For security reasons, if using _blank, should also set rel="noopener noreferrer"-->
+  <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_self">A-tag</a>
+
+  <p>No bold</p><p><b>Bold</b></p><p><em>Emphasis</em></p><p><strong>Strong</strong></p>
+
+  <input type='text' disabled>
+
+  <!-- A list of elements/tags in HTML: https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
+
+</body>
+</html>

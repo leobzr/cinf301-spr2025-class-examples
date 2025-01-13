@@ -1,0 +1,39 @@
+<!-- See: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML -->
+
+<!DOCTYPE html>
+
+<!-- Setting your language helps search engines index your page better.
+     Also, you can set different languages for parts of your page, e.g.
+        <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+ -->
+<html lang="en">
+
+<head>
+  <!-- UTF-8 allows foreign language character sets to be used, so important -->
+  <meta charset="UTF-8">
+
+  <!-- Some headers no longer used because abused by spammers, e.g. -->
+  <meta name="keywords" content="fill, in, your, keywords, here">
+
+  <!-- Open Graph and Twitter Cards used to provide richer user experience, see above docs. -->
+
+  <!-- If files not found, like below, errors pop up in console but page still loads. -->
+
+  <!-- Include CSS script files -->
+  <link rel="stylesheet" href="my-css-file.css">
+
+  <!-- Include Javascript script files -->
+  <script src="my-js-file.js" defer></script>
+
+  <title>HTML Basics</title>
+  <meta name='author' content="Daniel Plante">
+  <meta name='description' content="Here's what my page does, and search engines use this for indexing and display it in search results">
+
+</head>
+
+<body>
+  <!-- See: https://www.freeformatter.com/html-entities.html
+       for complete list of "html entities" -->
+  <h1>Some &amp;&lt;head&gt;&#192; &#68;&#65;&#78; Details</h1>
+</body>
+</html>
