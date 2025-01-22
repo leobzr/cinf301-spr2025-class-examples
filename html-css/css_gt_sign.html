@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<!-- See: https://www.geeksforgeeks.org/what-is-greater-than-sign-selector-in-css/
+     Good example demonstrating the ">" sign in CSS -->
+
+<head>
+    <title>
+        CSS element > element Selector
+    </title>
+
+    <!-- style to set element > element selector -->
+    <style>
+        h2 {
+            color: red;
+        }
+        
+        p, div {
+            color: blue;
+            background: cyan;
+        }
+
+        li>div {
+            color: white;
+            background: green;
+        }
+
+        ul>li {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="color:green;">
+        CSS element > element Selector
+    </h2>
+
+    <p>P element</p>
+
+    <div>Div element</div>
+
+    <ul>
+        <li>
+            <div>Searching algorithms</div>
+            <ul>
+                <li>Binary search</li>
+                <li>Linear search</li>
+            </ul>
+
+        </li>
+
+        <li>
+            <div>Sorting Algorithms</div>
+            <ul>
+                <li>Merge sort</li>
+                <li>Quick sort</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

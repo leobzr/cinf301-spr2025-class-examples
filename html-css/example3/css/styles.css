@@ -1,0 +1,22 @@
+/*
+ *  Switch this first line to:
+ *    ol li:nth-child(2n+2) {
+ *    ul li:nth-child(2n+1) {
+ */
+li:nth-child(3) {
+  color: red;
+  font-family: Tahoma, Serif, Verdana, Arial;
+}
+
+/*
+ * Change p to li for both of the following
+ */
+p::after {
+  color: green;
+  content: " After stuff";
+}
+
+p::before {
+  color: blue;
+  content: "Before stuff ";
+}

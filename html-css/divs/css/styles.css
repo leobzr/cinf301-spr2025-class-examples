@@ -1,0 +1,72 @@
+body {
+  border: 1px dashed red;
+  width: 100%;
+}
+
+img {
+  width: 10%;
+  height: 100%;
+}
+
+#top {
+  border: 1px solid green;
+  width: 50%;
+  height: 50px;
+  position: fixed;
+  top: 10px; left: 25%
+}
+
+#main {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  margin-top: 100px;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.pos1 {
+  position: static;
+}
+
+/*
+ * positions abolutely 50x50 away from closest ancestor, namely the "pos1" element
+ */
+.pos2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/*
+ * positions relative to its normal place in document; set top/left
+ * to 0px/0px to see where the element would go normally, which will
+ * be exactly where it would be if you remove the "pos3" class
+ * from <div class="pos3">Position 3</div> in the index.html document.
+ * Then change the values to see the relative movement.
+ */
+.pos3 {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#bottom {
+  padding-top: 50px;
+  border: 1px solid black;
+  width: 100%;
+  height: 1000px;
+}
+
+.bottom-row {
+  margin-left: 25%;
+  display: table;
+  width: 50%;
+}
+
+.line {
+  border: 1px solid pink;
+  text-align: center;
+  display: table-cell;
+}

@@ -1,0 +1,26 @@
+/*
+ * HTML id and class are selectors (or "hooks") which differ in that an
+ * "id" can only identify one element while "class" can be used to
+ * identify many.  Reference them in CSS with # (for id) and . (for class)
+ */
+.barcody {
+  background-color: cyan;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+#overall {
+  border: 1px dashed red;
+  font-family: 'Indie Flower', cursive;
+}
+
+/*
+ * These two colors are dummy entries just to demo
+ * add/commit/push with git
+ */
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
