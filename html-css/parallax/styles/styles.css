@@ -1,0 +1,63 @@
+
+/* Parallax base styles
+--------------------------------------------- */
+
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+}
+
+
+/* demo styles
+--------------------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font: 100% / 1.5 Arial;
+}
+
+.parallax {
+    font-size: 400%;
+}
+
+/* add some padding to force scrollbars */
+.parallax__layer {
+    padding: 100vh 0;
+}
+
+/* misc
+--------------------------------------------- */
+.demo__info {
+    position: absolute;
+    z-index:100;
+    bottom: 1vh;
+    top: auto;
+    font-size:80%;
+    text-align:center;
+    width: 100%;
+}
