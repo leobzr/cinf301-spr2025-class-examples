@@ -31,11 +31,12 @@ const students = {
     Philip: "GH",
     Lawrencia: "GH",
     Nonso: "NG",
-    Chellissa: "VI",
+    Chellissa: "JM",
     Kyrylo: "UA",
     Elif: "TR",
     Leo: "BR",
-    Theo: "BR"
+    Theo: "BR", 
+    Jullya: "BR"
 }
 
 var results = Object.entries(students).filter(([k, v]) => v === "GH");
@@ -52,6 +53,7 @@ results = [42, 33, 11, 88, -3, 0, 81, -81, 44].reduce((prev, next) => Math.min(p
 // Another example with details
 [42, 33, 11, 88, -3, 0, 81, -81, 44].reduce(
     (prev, next, index, array) => {
+        console.log('prev:', prev, 'next:', next, 'index:', index, 'array:', array);
         if (index < 4) {
             return Math.min(prev, next);
         }
