@@ -1,0 +1,48 @@
+<script>
+  /* See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode */
+
+  /* Example 1: strict mode for scripts */
+  'use strict';
+  value = 5;      // Must declare value or error, use let or var
+
+  // Helps with misspellings
+  'use strict';
+  let velocity = 5;
+  let fast = false;
+
+  if (fast) {
+    velocty = 7;
+  } else {
+    velocty = 3;
+  }
+  console.log("velocity = " + velocity);
+
+  /* Example 2: strict mode for functions */
+  'use strict';
+  function bad() {
+    value = 5;    // value not declared even in function
+  }
+  bad();
+
+  /* Example 3: more strict mode for functions */
+  fine1 = 4;      // strict not declared so doesn't fail
+  function bad() {
+    'use strict';
+    booboo1 = 5;        // this will fail because function scope strict
+    function superbad() {
+      booboo2 = 6;      // I'm bad too, use let or var
+    }
+    superbad(); // can call here because nested
+  }
+  fine2 = 7;
+  bad();
+  superbad(); // can't call here, out of scope
+
+  /*
+   * See rest of examples from above site, try out directly on the
+   * site or copy them here to try out one by one; remember, you
+   * must comment out the previous errors to see the one you are
+   * examining fail
+   */
+
+</script>
