@@ -1,0 +1,10 @@
+<script>
+  // See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+  const mine = window.localStorage;
+  console.log(mine.getItem('name'));
+  console.log(mine.getItem('age'));
+
+  let vals = window.localStorage.getItem('str');
+  const values = JSON.parse(vals);
+  console.log(values);
+</script>

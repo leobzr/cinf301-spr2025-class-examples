@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blastoff!</title>
+</head>
+<body>
+
+<h1 id="counter"></h1>
+
+<script>
+var countdown = 10;
+
+setInterval(function() {   
+  document.getElementById("counter").innerHTML = countdown;
+  countdown--;
+
+  if (countdown < 0) {
+    clearInterval(counter);
+    document.getElementById("counter").innerHTML = "Blastoff!!!";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
