@@ -9,15 +9,15 @@ export default function Lion() {
     < div >
       <h1>Lions</h1>
       < Container >
-        <Row>
+      <Row>
           <Col xs={3} md={3}>
-            <Image style={{ maxWidth: 200 }} src="https://animalia-life.com/data_images/lion/lion1.jpg" rounded />
+            <Image style={{ maxWidth: 200 }} src="https://plus.unsplash.com/premium_photo-1669725687221-6fe12c2da6b1?fm=jpg" rounded />
           </Col>
           <Col xs={3} md={3}>
-            <Image style={{ maxWidth: 200 }} src="https://animalia-life.com/data_images/lion/lion2.jpg" roundedCircle />
+            <Image style={{ maxWidth: 200 }} src="https://files.worldwildlife.org/wwfcmsprod/images/Lion_Kenya/hero_small/7seqacudmc_Medium_WW2116702.jpg" roundedCircle />
           </Col>
           <Col xs={6} md={6}>
-            <Image style={{ maxWidth: 200 }} src="https://animalia-life.com/data_images/lion/lion3.webp" thumbnail />
+            <Image style={{ maxWidth: 200 }} src="https://safariavventura.com/wp-content/uploads/2018/02/leone-africano-2-750x500.jpg" thumbnail />
           </Col>
         </Row>
       </Container >
