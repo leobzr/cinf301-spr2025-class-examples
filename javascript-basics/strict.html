@@ -5,15 +5,22 @@
   'use strict';
   value = 5;      // Must declare value or error, use let or var
 
+
+  // The point of use strict - it is enforcing certain rules.
+  // when you use it, and add a variable 
+
+  
+  //let creates more block scoped variables - more especific
+  //var is function based, so it is more global to the code
   // Helps with misspellings
   'use strict';
   let velocity = 5;
   let fast = false;
 
   if (fast) {
-    velocty = 7;
+    velocity = 7;
   } else {
-    velocty = 3;
+    velocity = 3;
   }
   console.log("velocity = " + velocity);
 
