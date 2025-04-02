@@ -1,4 +1,4 @@
 * uses Express v5
-* modular best practice
-* separates out testable logic from mock-able structures to improve unit testing
+* uses Mongo with ORM for model
+* provides sample of CRUD for a user
 * uses import vs require for future-proofing
