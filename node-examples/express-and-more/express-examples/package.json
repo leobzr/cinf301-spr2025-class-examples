@@ -1,0 +1,15 @@
+{
+  "name": "express-examples",
+  "version": "1.0.0",
+  "description": "See examples at: https://expressjs.com/en/starter/examples.html",
+  "main": "route-middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
