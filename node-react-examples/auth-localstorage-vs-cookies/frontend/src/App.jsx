@@ -67,7 +67,7 @@ function App() {
 
   // Login form submission.
   const handleLogin = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // block reloading the page
     setError('');
     try {
       const response = await api.post('/auth/login', credentials);

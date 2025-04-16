@@ -11,6 +11,7 @@
     "dotenv": "^16.4.7",
     "dotenv-cli": "^8.0.0",
     "express": "^5.0.1",
+    "modular-best-practice": "file:",
     "mongoose": "^8.13.1"
   },
   "devDependencies": {
