@@ -1,0 +1,22 @@
+{
+  "name": "modular-best-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "dotenv -e .env.test -- vitest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "dotenv-cli": "^8.0.0",
+    "express": "^5.0.1",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^8.16.1",
+    "nodemon": "^3.1.9",
+    "supertest": "^6.3.4",
+    "vitest": "^1.6.1"
+  }
+}
